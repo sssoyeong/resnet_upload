@@ -1,0 +1,5 @@
+{    
+    "num-cores-cpu": 16,
+    "num-cores-gpu": 1,
+    "max-nodes": 4
+}

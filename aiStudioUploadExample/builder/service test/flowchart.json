@@ -1,0 +1,56 @@
+[
+  {
+    "data": {
+      "fileName": "input.png",
+      "title": "Input"
+    },
+    "id": "inputNode",
+    "position": {
+      "x": 50,
+      "y": 100
+    },
+    "type": "inputNode"
+  },
+  {
+    "data": {
+      "path": "/EDISON2/home/demo/workspace/test_project/de/test",
+      "title": "test",
+      "type": "Data Processing",
+      "algorithm": "-"
+    },
+    "id": "node_1683712606375",
+    "position": {
+      "x": 51,
+      "y": 274
+    },
+    "type": "codeNode"
+  },
+  {
+    "style": {"strokeWidth": "2"},
+    "id": "edge_1683712614380",
+    "source": "inputNode",
+    "type": "smoothstep",
+    "target": "node_1683712606375"
+  },
+  {
+    "data": {
+      "path": "/EDISON2/home/demo/workspace/test_project/model/test model",
+      "title": "test model",
+      "type": "AI Model",
+      "algorithm": "cnn"
+    },
+    "id": "node_1683712623101",
+    "position": {
+      "x": 46,
+      "y": 466.99999999999994
+    },
+    "type": "modelNode"
+  },
+  {
+    "style": {"strokeWidth": "2"},
+    "id": "edge_1683712631070",
+    "source": "node_1683712606375",
+    "type": "smoothstep",
+    "target": "node_1683712623101"
+  }
+]

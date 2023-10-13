@@ -1,0 +1,13 @@
+{
+  "modelName": "test model",
+  "nnType": "",
+  "jobFrom": "aiBuilder",
+  "framework": "PyTorch",
+  "parentJob": 0,
+  "studyName": "",
+  "inputs": [],
+  "trialNumber": 0,
+  "accuracy": 1,
+  "jobType": 81,
+  "createDate": "2023-05-10 18:55:15"
+}

@@ -1,0 +1,1 @@
+{"code":{"de":"de_run.py","ai":"ai_run.py","net":"torchmodel.py"},"modelId":63906,"title":"test model","target":"","score":1,"task":"Classification","feature":"","model":{"torchmodel.pth":"torchmodel.pth"},"problemId":0,"projectId":0,"results":[{"name":"","value":1}],"workspaceId":-1596357524,"algorithm":"cnn"}
